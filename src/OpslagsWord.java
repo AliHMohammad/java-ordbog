@@ -11,6 +11,10 @@ public class OpslagsWord extends Word {
         this.listOfForms.add(word.getForm());
     }
 
+    public void addForm(String form) {
+        this.listOfForms.add(form);
+    }
+
 
     @Override
     public boolean equals(Object o) {

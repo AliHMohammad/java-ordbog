@@ -38,8 +38,6 @@ public class Controller {
         for (Word word : wordArr) {
             OpslagsWord opslagsOrd = new OpslagsWord(word);
 
-
-
             opslagsWordSet.add(opslagsOrd);
         }
 
