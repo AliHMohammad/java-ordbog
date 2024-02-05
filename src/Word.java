@@ -77,5 +77,14 @@ public class Word {
         setId(Integer.parseInt(id));
     }
 
-
+    @Override
+    public String toString() {
+        return "Word{" +
+                "form='" + form + '\'' +
+                ", head='" + head + '\'' +
+                ", homographNumber=" + homographNumber +
+                ", partOfSpeech='" + partOfSpeech + '\'' +
+                ", id=" + id +
+                '}';
+    }
 }

@@ -24,4 +24,16 @@ public class OpslagsWord extends Word {
     public int hashCode() {
         return Objects.hash(getHead(), getId());
     }
+
+    @Override
+    public String toString() {
+        return "Word{" +
+                "form='" + getForm() + '\'' +
+                ", head='" + getHead() + '\'' +
+                ", homographNumber=" + getHomographNumber() +
+                ", partOfSpeech='" + getPartOfSpeech() + '\'' +
+                ", id=" + getId() + '\'' +
+                ", listOfForms=" + listOfForms +
+                '}';
+    }
 }
